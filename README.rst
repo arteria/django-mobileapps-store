@@ -10,11 +10,8 @@ Installation
 
 To get the latest stable release from PyPi
 
-.. code-block:: bash
 
-    pip install django-mobileapps-store (NOTE: app not ready for production yet!)
-
-To get the latest commit from GitHub (NOTE: this is an app in progress!)
+To get the latest commit from GitHub
 
 .. code-block:: bash
 
@@ -59,6 +56,10 @@ Usage
 TODO: Describe usage or point to docs. Also describe available settings and
 templatetags.
 
+Requirements
+------------
+
+* httpagentparser
 
 Contribute
 ----------

@@ -48,15 +48,16 @@ def getPlatform(agent):
         
 
 def switchToStoreOrLanding(request):
-    
+    """
+    """
     agent = request.META['HTTP_USER_AGENT']
     platform = getPlatform(agent)
     ma = MobileApp.objects.latest('pk')
     if platform == "iOS":
-        target = ma.ios_target
+        target = ma.ios_target #TODO: use fallback if not set
     elif platform == "Android":
-        target = ma.android_target
+        target = ma.android_target  #TODO: use fallback if not set
     else:
-        target = ma.landing_target # fallback
+        target = ma.landing_target # fallback,  #TODO: what to use as fallback if not set
     return HttpResponseRedirect(target)
     
