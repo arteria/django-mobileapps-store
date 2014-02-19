@@ -1,0 +1,12 @@
+include AUTHORS
+include LICENSE
+include DESCRIPTION
+include CHANGELOG.txt
+include README.md
+include README.rst
+graft mobileapps_store
+global-exclude *.orig *.pyc *.log *.swp
+prune mobileapps_store/tests/coverage
+prune mobileapps_store/.ropeproject
+recursive-include mobileapps_store/templates *
+recursive-include docs *

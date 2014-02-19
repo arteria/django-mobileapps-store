@@ -1,0 +1,1 @@
+Django app to dedect if we have to redirect the client to Apple's App Store, to Google Play Store or an other landing page.
