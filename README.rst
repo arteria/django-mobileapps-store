@@ -36,11 +36,7 @@ Add the ``mobileapps_store`` URLs to your ``urls.py``
         url(r'^mobileappsstore/', include('mobileapps_store.urls')),
     )
 
-Before your tags/filters are available in your templates, load them by using
-
-.. code-block:: html
-
-	{% load mobileapps_store_tags %}
+ 
 
 
 Don't forget to migrate your database
