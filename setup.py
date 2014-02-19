@@ -37,7 +37,7 @@ dev_requires = [
 ]
 
 install_requires = [
-    'django',
+    'django', 'httpagentparser',
 ]
 
 
@@ -57,7 +57,7 @@ setup(
     keywords='django, app, reusable, mobile, store, switch, proxy, appstore, google play, apple',
     author='arteria GmbH',
     author_email='admin@arteria.ch',
-    url="https://github.com/artiera/django-mobileapps-store",
+    url="https://github.com/arteria/django-mobileapps-store",
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,

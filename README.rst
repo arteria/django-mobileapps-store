@@ -1,7 +1,9 @@
-Django mobileapps store switcher
+Django mobile app store switcher
 ============
 
-Django app to dedect if we have to redirect the client to Apple's App Store, to Google Play Store or an other landing page.
+Django app to dedect if we have to redirect the client to Apple's App Store, to the Google Play Store or an other landing page.
+This is build for exactly one app [1]_, that is available in the App Store and/or Google Play Store. 
+
 
 Installation
 ------------
@@ -10,15 +12,14 @@ To get the latest stable release from PyPi
 
 .. code-block:: bash
 
-    pip install django-mobileapps-store
+    pip install django-mobileapps-store (NOTE: app not ready for production yet!)
 
-To get the latest commit from GitHub
+To get the latest commit from GitHub (NOTE: this is an app in progress!)
 
 .. code-block:: bash
 
-    pip install -e git+git://github.com/artiera/django-mobileapps-store.git#egg=mobileapps_store-master
+    pip install -e git+git://github.com/arteria/django-mobileapps-store.git#egg=mobileapps_store-master
 
-TODO: Describe further installation steps (edit / remove the examples below):
 
 Add ``mobileapps_store`` to your ``INSTALLED_APPS``
 
@@ -76,3 +77,5 @@ If you want to contribute to this project, please perform the following steps
     git add . && git commit
     git push -u origin feature_branch
     # Send us a pull request for your feature branch
+
+.. [1] The app with the highest primary key/ID wins. 

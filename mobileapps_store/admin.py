@@ -1,11 +1,7 @@
-"""Admin classes for the mobileapps_store app."""
-# from django.contrib import admin
+from django.contrib import admin
+from .models import MobileApp
+        
+admin.site.register(MobileApp)
 
-# from . import models
 
-
-# class YourModelAdmin(admin.ModelAdmin):
-#    list_display = ['some', 'fields', ]
-#    search_fields = ['some', 'fieds', ]
-
-# admin.site.register(models.YourModel, YourModelAdmin)
+ 
