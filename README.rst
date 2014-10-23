@@ -46,11 +46,6 @@ Don't forget to migrate your database
     ./manage.py migrate mobileapps_store
 
 
-Usage
------
-
-TODO: Describe usage or point to docs. Also describe available settings and
-templatetags.
 
 Requirements
 ------------
